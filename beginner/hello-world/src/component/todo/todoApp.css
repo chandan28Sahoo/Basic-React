@@ -1,0 +1,46 @@
+.todo-app {
+    background-color: #a892ee;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .todo-app button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .todo-app button:hover,
+  .todo-app button:active {
+    background-color: #510674;
+    border-color: #510674;
+  }
+  
+  .todo-app button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .todo-app button.alternative:hover,
+  .todo-app button.alternative:active {
+    background-color: #ddb3f8;
+  }
+
+  /* #root {
+    background-image: url(../../../bg_home_dark.c749cee3d2b7cee2d909.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  } */
